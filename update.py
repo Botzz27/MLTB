@@ -12,8 +12,8 @@ basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     handlers=[FileHandler('log.txt'), StreamHandler()],
                     level=INFO)
 
-UPSTREAM_REPO = 'https://github.com/Botzz27/MLTB'
-UPSTREAM_BRANCH = 'update'
+UPSTREAM_REPO = ''
+UPSTREAM_BRANCH = ''
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
